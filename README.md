@@ -1,5 +1,5 @@
 # Computer-Network-Group-Project
-Commang line traceroute using python
+Command line traceroute using python
 Group Member: 
 Adetayo Okunoye
 
