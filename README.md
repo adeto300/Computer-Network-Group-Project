@@ -13,6 +13,8 @@ How to build and run
 3. run "pip install -r requirements.txt" to install all the code dependencies
 4. run the code in the terminal by typing: "python trstats.py -t www.example.com"
 5. check for the program output in the current directory
+Note: This code only runs on mac OS or Ubuntu operating system. it does not work on window OS. this is because window OS does not run "traceroute" to traverse the hop
+but uses "tracert". This program has only used "traceroute" in the code as a means to traverse each hop link.
 
 Objective:
 This project will require using Python to create a command line tool that automatically executes traceroute multiple times towards a target domain name or IP address specified as command line parameter. 
