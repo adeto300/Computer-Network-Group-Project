@@ -7,6 +7,13 @@ Title:
 To develop a command line tool for trace-route, parsing its output, and performing a statistical analysis 
 of the trace-route results.
 
+HOW TO BUILD RUN THE CODE
+1. Download trstats.py and requirements.txt into a newly created folder directory
+2. open this folder in visual studio code with a python environment
+3. run "pip install -r requirements.txt" to install all the code dependencies
+4. run the code in the terminal by typing: "python trstats.py -t www.example.com"
+5. check for the program output in the current directory
+
 Objective:
 This project will require using Python to create a command line tool that automatically executes traceroute multiple times towards a target domain name or IP address specified as command line parameter. 
 Based on multiple trace-route executions, the program will need to derive latency statistics for each hop 
@@ -67,3 +74,6 @@ example:
 
 Where avg = average hop latency, max = maximum hop latency, med = median hop latency, min = 
 minimum hop latency). Also, the program should will output a boxplot graph showing the latency
+
+
+
