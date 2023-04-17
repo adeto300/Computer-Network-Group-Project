@@ -1,7 +1,7 @@
 # Computer-Network-Group-Project
 Command line traceroute using python
-Group Member: 
-Adetayo Okunoye
+Group Member: Adetayo Okunoye
+Github link: https://github.com/adeto300/Computer-Network-Group-Project.git
 
 Title: 
 To develop a command line tool for trace-route, parsing its output, and performing a statistical analysis 
